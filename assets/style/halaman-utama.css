@@ -1,0 +1,156 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+/* FONT END */
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+
+
+nav .container-fluid {
+    padding: 0 6%;
+
+
+}
+
+nav .container-fluid .navbar-brand {
+    font-size: 26px;
+    color: #27324E;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav .container-fluid .navbar-collapse ul li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+nav .container-fluid .navbar-collapse button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFCE1A;
+    color: white;
+    height: 36px;
+    padding-bottom: 9px;
+    font-weight: 500;
+}
+
+/* container hero 1 */
+.container-hero-1 {
+    padding: 0 6%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-hero-1 .col:nth-child(1) button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFCE1A;
+    color: white;
+    height: 45px;
+
+    font-weight: 500;
+}
+
+.container-hero-1 .col:nth-child(2) img {
+    height: 370px;
+    width: 530px;
+    float: right;
+}
+
+/* container hero 1 end*/
+
+
+
+
+
+
+/* container hero 2 */
+.container-hero-2 {
+    padding: 0 6%;
+
+}
+
+.container-hero-2 h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-hero-2 .buku1 .caption-button {
+    margin-top: 64px;
+    width: 210px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-hero-2 .buku1 .cover img {
+    height: 200px;
+}
+
+.container-hero-2 .buku1 .caption-button button {
+    background-color: #FFCE1A;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-hero-2 .button-move button {
+    background-color: #FFCE1A;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* container hero 2 end*/
+
+/*container hero 3 */
+.container-hero-3 {
+    padding: 0 6%;
+    margin-top: 110px;
+}
+
+.container-hero-3 .row {
+    background-color: #FFCE1A;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-hero-3 .row .col a {
+    text-decoration: none;
+    color: #212529;
+}
+
+/* container hero 3 end*/
+
+/* responsive Breakpoint */
+
+@media screen and (max-width:1200px) {}
+
+@media screen and (max-width:992px) {
+    .container-hero-1 .row .col:nth-child(2) {
+        order: -1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-hero-2 h4 {
+        margin-top: 20px;
+    }
+
+    .container-hero-3 .row .col:nth-child(3) {
+        margin-top: 20px;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container-hero-2 .button-move button img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .container-hero-2 .button-move button {
+        font-size: 10px;
+        padding: 10 20px;
+    }
+
+    .container-hero-1 .col:nth-child(2) img {
+        height: 280px;
+        width: 430px;
+
+    }
+
+
+}

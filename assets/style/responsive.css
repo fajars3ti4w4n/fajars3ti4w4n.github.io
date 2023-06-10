@@ -1,0 +1,45 @@
+/* Extra small (xs): Ukuran layar dengan lebar kurang dari 576 piksel.
+Small (sm): Ukuran layar dengan lebar antara 576 piksel dan 768 piksel.
+Medium (md): Ukuran layar dengan lebar antara 768 piksel dan 992 piksel.
+Large (lg): Ukuran layar dengan lebar antara 992 piksel dan 1200 piksel. */
+
+@media screen and (max-width:1200px) {}
+
+
+@media screen and (max-width:992px) {
+    .container-hero-1 .row .col:nth-child(2) {
+        order: -1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-hero-2 h4 {
+        margin-top: 20px;
+    }
+
+    .container-hero-3 .row .col:nth-child(3) {
+        margin-top: 20px;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container-hero-2 .button-move button img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .container-hero-2 .button-move button {
+        font-size: 10px;
+        padding: 10 20px;
+    }
+
+    .container-hero-1 .col:nth-child(2) img {
+        height: 280px;
+        width: 430px;
+
+    }
+
+
+}

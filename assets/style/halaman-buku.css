@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    background-color: #FFCE1A !important;
+
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar */
+nav .container-fluid {
+    padding: 0 6%;
+
+
+}
+
+nav .container-fluid .navbar-brand {
+    font-size: 26px;
+    color: #27324E;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav .container-fluid .navbar-collapse ul li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+nav .container-fluid .navbar-collapse button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #c9a31c;
+    color: white;
+    height: 36px;
+    padding-bottom: 9px;
+    font-weight: 500;
+}
+
+/* navbar end */
+
+
+/* halaman buku  */
+.halaman-buku .containe {
+    padding: 0 6%;
+}
+
+.halaman-buku .container .lottiefiles {
+    height: 400px;
+}
+
+.halaman-buku .container .row .col img {
+    width: 200px;
+    height: 290px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+/* halaman buku end */
+
+
+/* responsive */
+@media screen and (max-width:576px) {
+    .halaman-buku .container .row .col img {
+        width: 160px;
+        height: 250px;
+    }
+
+    .halaman-buku .container .row .col {
+        font-size: 12px;
+    }
+}
+
+/* responsive end*/
+
+/* Extra small (xs): Ukuran layar dengan lebar kurang dari 576 piksel.
+Small (sm): Ukuran layar dengan lebar antara 576 piksel dan 768 piksel.
+Medium (md): Ukuran layar dengan lebar antara 768 piksel dan 992 piksel.
+Large (lg): Ukuran layar dengan lebar antara 992 piksel dan 1200 piksel. */
